@@ -9,7 +9,7 @@
 	--border: #D2D8DC;
 	--light: #F0F2F4;
 	--white: #fff;
-	--light-gradient: linear-gradient(106.76deg, #F0F2F4 0%, #FFFFFF 100%);;
+	--light-gradient: linear-gradient(106.76deg, #F0F2F4 0%, #FFFFFF 100%);
 }
 *{
 	margin: 0;
