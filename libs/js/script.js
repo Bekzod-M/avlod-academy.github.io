@@ -47,7 +47,10 @@ $('.our_team.owl-carousel').owlCarousel({
         0:{
             items:1
         },
-        600:{
+        500:{
+            items:2
+        },
+        700:{
             items:3
         },
         1000:{
@@ -68,8 +71,17 @@ $('.news.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    // autoplay: true,
-    items:3
+    responsive:{
+     0:{
+        items:1
+    },
+    500:{
+        items:2
+    },
+    700:{
+        items:3
+    }
+}
 })
 
 // accordion
