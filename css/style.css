@@ -267,14 +267,15 @@ button,
 	border-radius: 0;
 	padding: 8px 0;
 }
-.header .list.back li a{
-	display: flex;
-	align-items: center;
+.header .list.back li{
+	text-align: right;
 }
 .header .list.back .feather {
 	width: 19px;
 	height: 19px;
-	margin-right: 8px;
+	position: relative;
+	top: 5px;
+	right: 4px;
 }
 .header .list li a:hover{
 	color: var(--primary);
